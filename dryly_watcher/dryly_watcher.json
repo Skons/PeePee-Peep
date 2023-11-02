@@ -1,0 +1,22 @@
+{
+    "configuration": {
+        "wait": 5
+    },
+    "authentication": {
+        "email": "",
+        "password": "",
+        "access_token": ""
+    },
+    "log": {
+        "level": "info"
+    },
+    "notification": {
+        "last": 1764495
+    },
+    "home_assistant": {
+        "url": "",
+        "port": 8123,
+        "access_token": "",
+        "input_boolean": "peepee_peep"
+    }
+}
