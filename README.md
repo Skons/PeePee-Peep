@@ -40,7 +40,7 @@ Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It a
 | Completely local                              | It's attached to the zigbee network at home, so it can only be used at home. Therefor it cannot be used for sleepovers. |
 | You can be alarmed before the whole bed is wet   | You will need a seperate speaker to wake up the bed wetter |
 | It's cheaper then a commercial solution          | If the alarm is being pushed for 5 seconds, it will disconnect from the zigbee network. It is hard to push it and it needs to be precise, so the chance it happens by accident is small but we've got murphy... |
-| It can last more then a year on a CR2032 battery |  |
+| It can last more then a year on a CR2032 battery | |
 
 🧐 Good to know:
 * The zigbee protocol is not correctly implemented in the sensor, it will always to talk to the device that added the sensor to zigbee. You will need that zigbee router close the the bedwetter.
@@ -55,9 +55,9 @@ With the [Mi Temperature and Humidity Monitor 2](https://ams.buy.mi.com/uk/item/
 * RS Mode: Switch
 * RS Report interval: 1
 
-Once you have done that, you can read the switch state from bluetooth. To get a switch state, 2 wires need to be soldered to the Ground and P8, those wires need to be attached/soldered to the Spektro [dubble connection component](https://www.speeltechniek.nl/Spektro-Dubbel-verbindingsonderdeel). Also see the How To of the Aqara sensor. When done you will need to make the sensor water resistant. I think enough tape should work...
+Once you have done that, you can read the switch state from bluetooth. To get a switch state, 2 wires need to be soldered to the Ground and P8, those wires need to be attached/soldered to for instance the Spektro [dubble connection component](https://www.speeltechniek.nl/Spektro-Dubbel-verbindingsonderdeel). Take a look at the How To of the Aqara sensor on how to use the Spektor component. When done you will need to make the sensor water resistant. I think enough tape should work...
 
-Another advantage of this device is that due to bluetooth is being used, it's possible to use an ESP32 device to read and report the switch state (see https://esphome.io/components/sensor/xiaomi_ble.html#lywsd03mmc for the advertising type, i do not know if the switch state is visible with PVVX, Custom or Mi Like). That same ESP device could be the [ESP Muse](https://www.amazon.com/RASPIAUDIO-ESPMUSE-Development-Speaker-Microphone/dp/B09N3S9S29) with a speaker integrated or a simple, cheaper, [Rtttl buzzer](https://esphome.io/components/rtttl.html). If one of these is used, the whole package can be used during sleepovers. You will need to program the ESP device to react to the switch state and play a sound on the speaker or buzzer.
+Another advantage of this device is that due to bluetooth is being used, it's possible to use an ESP32 device to read and report the switch state (see https://esphome.io/components/sensor/xiaomi_ble.html#lywsd03mmc for the advertising type, i do not know if the switch state is visible with PVVX, Custom or Mi Like). The ESP device that will read the sensor could be the [ESP Muse](https://www.amazon.com/RASPIAUDIO-ESPMUSE-Development-Speaker-Microphone/dp/B09N3S9S29) with a speaker integrated. Or you could go for a simple, cheaper, [Rtttl buzzer](https://esphome.io/components/rtttl.html). If one of these is used, the whole package can be used during sleepovers. You will need to program the ESP device to react to the switch state and play a sound on the speaker or buzzer.
 
 
 | ✅ Pros | ❌ Cons |
