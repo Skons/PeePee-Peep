@@ -19,7 +19,7 @@ Why start with a commercial bedwetting alarm if this is about DIY? Because this 
 
 ## Aqara
 
-You can use an [Aqara Water Leak Sensor](https://www.aqara.com/us/product/water-sensor/) and attach it to bedwetting underwear. You will still need underwear to attach the device to, the DryLy underwear can be used perfectly if you'll use something to attach the sensor to. The perfect item to do this with is the [dubble connection component](https://www.speeltechniek.nl/Spektro-Dubbel-verbindingsonderdeel) from a game called Spektro.
+You can use an [Aqara Water Leak Sensor](https://www.aqara.com/us/product/water-sensor/) and attach it to bedwetting underwear. You will still need special underwear to attach the device to, the DryLy underwear can be used perfectly if you'll use something to attach the sensor to. The perfect item to do this with is the [dubble connection component](https://www.speeltechniek.nl/Spektro-Dubbel-verbindingsonderdeel) from a game called Spektro.
 
 <img src="./images/spektro.png" height="150"/>
 
@@ -64,3 +64,14 @@ Another advantage of this device is that due to bluetooth is being used, it's po
 | It is the cheapest solution                    | Soldering is needed |
 | It can be used with sleepovers                 | You will need a bluetooth receiver |
 | It can last a year on a CR2032 battery         | You will need underpants to attach the sensor to |
+
+## Underwear
+
+I have not ventured into this realm, but it is possible to create your own underwear with a sensor. All you will need is being good at sewing, a wire and buttons to attach the bedwetting alarm to. You will need 2 wires that are layed oud besides each other, but do not touch. When the underpants get wet, the wetness will create the contact and thus the alarm.
+The pattern should look more or less like this:
+
+<img src="./images/sensor_layout.png" height="250"/>
+
+And here is an example how its done in a commercial solution, where you can see the wire on the front, it goes all the way down between the legs.
+
+<img src="./images/commercial_pants.png" height="250"/>
