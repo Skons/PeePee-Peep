@@ -72,6 +72,6 @@ The pattern could look more or less like this:
 
 <img src="./images/sensor_layout.png" height="250"/>
 
-And here is an example how its done in a commercial solution, where you can see the wire on the front, it goes all the way down between the legs. The wires are also seperated by a seam.
+And here is an example how its done in a commercial solution, where you can see the wire on the front, it goes all the way down between the legs. The wires are also seperated by a seam. This seem to be the most common way to wire the alarm.
 
 <img src="./images/commercial_pants.png" height="250"/>
