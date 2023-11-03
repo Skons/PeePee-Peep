@@ -21,6 +21,8 @@ Why start with a commercial bedwetting alarm if this is about DIY? Because this 
 
 You can use an [Aqara Water Leak Sensor](https://www.aqara.com/us/product/water-sensor/) and attach it to bedwetting underwear. You will still need underwear to attach the device to, the DryLy underwear can be used perfectly if you'll use something to attach the sensor to. The perfect item to do this with is the [dubble connection component](https://www.speeltechniek.nl/Spektro-Dubbel-verbindingsonderdeel) from a game called Spektro.
 
+<img src="./images/spektro.png" height="150"/>
+
 Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It also has detection when the sensor is being unpaired from the zigbee network.
 
 ### How To:
@@ -30,6 +32,8 @@ Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It a
 3. Attach/solder the wires to  the corresponding buttons of the Spektro component
 4. Make sure the Aqara sensor is attached to the Spektro component, with tape for instance, and it will fit perfectly onto the DryLy underpants.
 5. Make sure the Aqara sensor is added to the zigbee network with the router closes to the bed of the bedwetter
+
+<img src="./images/ppp_aqara_front.png" height="250"/> <img src="./images/ppp_aqara_bottom.png" height="250"/> <img src="./images/ppp_aqara_attached.png" height="250"/>
 
 | ✅ Pros | ❌ Cons |
 | ------- | ------- |
