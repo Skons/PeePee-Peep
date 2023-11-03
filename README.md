@@ -10,9 +10,9 @@ Why start with a commercial bedwetting alarm if this is about DIY? Because this 
 
 | ✅ Pros | ❌ Cons |
 | ------- | ------- |
-| It's ready to use.                                  | It's expensive. |
+| It's ready to use.                                  | It's relatively expensive. |
 | When internet is down, the alarm receiver will work | Cloud oriented. |
-| It can be integrated in Home Assistant              | It's not a sensetive alarm. |
+| It can be integrated in Home Assistant              | It's not a sensative alarm. |
 | It can be used outside of your home.                | You will need to charge it every other night |
 
 ## DIY Bedwetting
@@ -23,7 +23,7 @@ You can use an [Aqara Water Leak Sensor](https://www.aqara.com/us/product/water-
 
 <img src="./images/spektro.png" height="150"/>
 
-Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It also has detection when the sensor is being unpaired from the zigbee network.
+Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It also has detection when the sensor is being unpaired from the zigbee network. See the cons why.
 
 ### How To:
 
@@ -37,16 +37,19 @@ Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It a
 
 | ✅ Pros | ❌ Cons |
 | ------- | ------- |
-| Completely local                              | The zigbee protocol is not correctly implemented in the sensor, it will always to talk to the device that added the sensor to zigbee. You will need that zigbee router close the the bedwetter. |
-| You can be alarmed before the whole bed is wet   | It is very sensitive. With sweating alone it can trigger. It's best to wear underwear beneath the underwear it`s attached to. |
-| It's cheaper then a commercial solution          | It's attached to the zigbee network at home, so it can only be used at home. Therefor it cannot be used for sleepovers. |
-| It can last more then a year on a CR2032 battery | You will need a speaker to wake up your bed wetter |
-|                                                  | You will need underpants to attach the sensor to |
-|                                                  | If the alarm is being pushed for 5 seconds, it will disconnect from the zigbee network. It is hard to push it and it needs to be precise, so the chance it happens by accident is small but we've got murphy... |
+| Completely local                              | It's attached to the zigbee network at home, so it can only be used at home. Therefor it cannot be used for sleepovers. |
+| You can be alarmed before the whole bed is wet   | You will need a seperate speaker to wake up the bed wetter |
+| It's cheaper then a commercial solution          | If the alarm is being pushed for 5 seconds, it will disconnect from the zigbee network. It is hard to push it and it needs to be precise, so the chance it happens by accident is small but we've got murphy... |
+| It can last more then a year on a CR2032 battery |  |
+
+🧐 Good to know:
+* The zigbee protocol is not correctly implemented in the sensor, it will always to talk to the device that added the sensor to zigbee. You will need that zigbee router close the the bedwetter.
+* You will need underpants to attach the sensor to
+* It is very sensitive. With sweating alone it can trigger. It's best to wear underwear beneath the underwear it`s attached to.
 
 ## Mi Temperature and Humidity Monitor 2
 
-With the [Mi Temperature and Humidity Monitor 2](https://ams.buy.mi.com/uk/item/3204500023), I have not done a live test but I have tested it with underpeants that I made slowly wetter. I have been testing it because I was searching for a less sensitive sensor. The Mi device is less sensitive, but seems to be more sensitive then DryLy. To get this to work, you will need to flash custom firmware from https://github.com/pvvx/ATC_MiThermometer. After flashing you will need to configure the following:
+With the [Mi Temperature and Humidity Monitor 2](https://ams.buy.mi.com/uk/item/3204500023), I have not done a live test but I have tested it with underpeants that I made slowly wetter. I have been testing it because I was searching for a less sensitive sensor. The Mi device is less sensitive, but seems to be more sensitive than DryLy. To get this to work, you will need to flash custom firmware from https://github.com/pvvx/ATC_MiThermometer. After flashing you will need to configure the following:
 
 * Advertising type: BT Home v1 (depending on how it's going to be read)
 * RS Mode: Switch
@@ -59,11 +62,14 @@ Another advantage of this device is that due to bluetooth is being used, it's po
 
 | ✅ Pros | ❌ Cons |
 | ------- | ------- |
-| Completely local                               | You will need a seperate speaker to wake up your bed wetter |
-| You can be alarmed before the whole bed is wet | It's not water resistant |
+| Completely local                               | You will need a seperate speaker to wake up the bed wetter |
+| You can be alarmed before the whole bed is wet | The sensor is not water resistant |
 | It is the cheapest solution                    | Soldering is needed |
 | It can be used with sleepovers                 | You will need a bluetooth receiver |
-| It can last a year on a CR2032 battery         | You will need underpants to attach the sensor to |
+| It can last a year on a CR2032 battery         | |
+
+🧐 Good to know:
+* You will need underpants to attach the sensor to
 
 ## Underwear
 
