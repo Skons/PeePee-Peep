@@ -73,7 +73,7 @@ Another advantage of this device is that due to bluetooth is being used, it's po
 
 ## Underwear
 
-I have not ventured into this realm, but it is possible to create your own underwear with a sensor wire. All you need is being good at sewing, a wire (which could be this stuff [this](https://www.kiwi-electronics.com/en/stainless-thin-conductive-thread-2-ply-23-meter-2792)) and buttons to attach the bedwetting alarm to. You will need 2 wires that are layed out besides each other, but do not touch. When the underpants get wet, the wetness will create the contact and thus the alarm.
+I have not ventured into this realm, but it is possible to create your own underwear with a sensor wire. All you need is being good at sewing, a wire (which could be [this](https://www.kiwi-electronics.com/en/stainless-thin-conductive-thread-2-ply-23-meter-2792) stuff) and buttons to attach the bedwetting alarm to. You will need 2 wires that are layed out besides each other, but do not touch. When the underpants get wet, the wetness will create the contact between the wires and the alarm will trigger on that.
 The pattern could look more or less like this:
 
 <img src="./images/sensor_layout.png" height="250"/>
