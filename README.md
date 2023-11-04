@@ -39,7 +39,7 @@ Take a look at the [PeePee Peep automation](peepee-peep/README.md) example. It a
 | ------- | ------- |
 | Completely local.                                 | It's attached to the zigbee network at home, so it can only be used at home. Therefor it cannot be used for sleepovers. |
 | You can be alarmed before the whole bed is wet.   | You will need a seperate speaker to wake up the bed wetter. |
-| It's cheaper then a commercial solution.          | If the alarm is being pushed for 5 seconds, it will disconnect from the zigbee network. It is hard to push it and it needs to be precise, so the chance it happens by accident is small but we've got murphy... |
+| It's cheaper than a commercial solution.          | If the alarm is being pushed for 5 seconds, it will disconnect from the zigbee network. It is hard to push it and it needs to be precise, so the chance it happens by accident is small but we've got murphy... |
 | It can last more then a year on a CR2032 battery. | |
 
 🧐 Good to know:
